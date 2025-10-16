@@ -21,7 +21,7 @@
 }
 
 html {
-    font: 62.5%;
+    font-size: 62.5%;
     overflow-x: hidden;
 }
 
@@ -276,7 +276,7 @@ span {
 /*-seccao educação e experiência-*/
 
 .container {
-    width: 109%;
+    width: 100%;
     padding: 1px 1%;
 }
 
@@ -341,7 +341,7 @@ main.row {
     font-size: 17px;
 }
 
-@media(max-widt: 768px) {
+@media (max-width: 768px) {
     main.row{
         grid-template-columns: 1fr ;
     }
